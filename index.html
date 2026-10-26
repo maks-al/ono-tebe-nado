@@ -5,32 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
-    <link href="styles/global.css" rel="stylesheet" />
-    <link href="styles/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="fonts/fonts.css" />
   </head>
   <body>
     <header class="header">
       <nav class="menu">
         <ul class="nav_menu">
-          <li class="nav_main"><a href="#">главная</a></li>
-          <li class="nav_lots"><a href="#">посмотреть лоты</a></li>
-          <li class="nav_about"><a href="#">об аукционе</a></li>
+          <li class="nav_main">
+            <a href="#" class="nav_link_active">главная</a>
+          </li>
+          <li class="nav_lots">
+            <a href="#lots">посмотреть лоты</a>
+          </li>
+          <li class="nav_about">
+            <a href="#about">об аукционе</a>
+          </li>
         </ul>
       </nav>
+
       <a class="header-logo" href="index.html">
-        <img src="images/logo-black.svg" alt="logo" />
+        <img src="images/logo-black.svg" alt="Логотип Оно тебе надо" />
       </a>
-      <nav class="contacts">
-        <li class="contacts_phone"><a href="tel:+99995555555">+9 999 555 5555</a></li>
-        <li class="contacts_mail"><a href="mailto:info@sobaka.ge">info@sobaka.ge</a></li>
-        <address class="contacts_address">наб. Принсенграхт 263-265, Амстердам</address>
-      </nav>
+
+      <address class="contacts">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <p class="contacts_address">
+          наб. Принсенграхт 263-265, Амстердам
+        </p>
+      </address>
     </header>
     <main>
       <div class="cover">
         <a class="cover-image" href="index.html">
           <img src="images/cover.jpg" alt="cover" />
         </a>
+
+        <h1 class="cover-words">
+          <span class="ono">ОНО</span>
+          <span class="tebe">ТЕБЕ</span>
+          <span class="nado">НАДО</span>
+        </h1>
+
+        <span class="cover-bottom-words">
+          <span class="auction-text">АУКЦИОН ВЕЩЕЙ, В КОТОРЫЕ НИКТО НЕ ВЕРИЛ</span>
+        </span>
       </div>
     </main>
     <footer>
