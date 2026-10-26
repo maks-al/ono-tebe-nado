@@ -224,3 +224,21 @@
   font-weight: 400;
   text-underline-offset: 4px;
 }
+
+.about-circle {
+    margin-left: 70px;
+    margin-top: 155px;
+    height: 240px;
+    width: 240px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.about-circle img {
+    position: relative;
+    width: 148px;
+    height: 114px;
+    top: 26%;
+    left: 20%;
+}
