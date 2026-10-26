@@ -115,12 +115,33 @@
   margin-right: -30px;
 }
 
-.cover-bottom-words {
-    width: 1000px;
-    height: 51px;
-    position: absolute;
-    color: white;
-    bottom: 36px;
-    left: 50px;
-    font-size: 24px;
+.cover-bottom{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  height: 51px;
+  display: flex;
+  align-items: center;
+  gap: 106px;
+  color: white;
+}
+
+.auction-text {
+  font-family: 'Raleway', Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  word-spacing: 19px;
+  margin-top: 1px;
+}
+
+.bet-button {
+  width: 256px;
+  height: 51px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  cursor: pointer;
 }
