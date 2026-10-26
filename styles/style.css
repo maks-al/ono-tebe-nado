@@ -1,1 +1,36 @@
 /* место для вашего кода */
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 293px;
+}
+
+.nav_menu {
+  display: flex;
+  justify-content: left;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.header-logo {
+  align-self: center;
+  height: 105px;
+  width: 148px;
+}
+
+.nav_main {
+    text-decoration: none;
+}
+
+.contacts_address {
+    max-width: 200px;
+    text-decoration: none;
+    white-space: pre-line;
+}
