@@ -146,9 +146,81 @@
   cursor: pointer;
 }
 
-.lots-cards {
-    display: flex;
-    width: 334px;
-    height: 596px;
-    flex-direction: row;
+.lots {
+  margin: 180px 24px 0;
+}
+
+.lots-heading {
+  margin: 0 0 27px 40px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 47px;
+}
+
+.lots-list {
+  display: grid;
+  grid-template-columns: repeat(3, 334px);
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lots-item {
+  min-width: 0;
+}
+
+.lots-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 596px;
+  padding: 48px 40px;
+  color: white;
+  text-decoration: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* наверное делать картинки через цсс всё же легче */
+.lots-card-1 {
+  background-image:
+    linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)),
+    url("../images/card-lot-01.jpg");
+}
+
+.lots-card-2 {
+  background-image:
+    linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)),
+    url("../images/card-lot-02.jpg");
+}
+
+.lots-card-3 {
+  background-image:
+    linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)),
+    url("../images/card-lot-03.jpg");
+}
+
+.lots-card-title {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: underline;
+}
+
+.lots-card-text {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.lots-view-more {
+  display: inline-block;
+  margin: 30px 0 0 40px;
+  font-size: 20px;
+  font-weight: 400;
+  text-underline-offset: 4px;
 }
