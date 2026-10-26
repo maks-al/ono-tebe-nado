@@ -145,3 +145,10 @@
   font-weight: 400;
   cursor: pointer;
 }
+
+.lots-cards {
+    display: flex;
+    width: 334px;
+    height: 596px;
+    flex-direction: row;
+}
