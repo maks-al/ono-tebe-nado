@@ -78,10 +78,6 @@
     filter: brightness(0.4);
 }
 
-.cover {
-    position: relative;
-}
-
 .cover-words {
     position: absolute;
     top: 155px;
@@ -115,7 +111,7 @@
     margin-right: -30px;
 }
 
-.cover-bottom{
+.cover-bottom {
     position: absolute;
     bottom: 50px;
     right: 50px;
