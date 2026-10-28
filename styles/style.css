@@ -18,7 +18,6 @@
 
 .nav_menu li {
     position: relative;
-    white-space: nowrap;
 }
 
 .nav_menu li:not(:first-child)::before {
